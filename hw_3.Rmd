@@ -7,6 +7,7 @@ editor_options:
 ---
 
 ```{r, message=FALSE}
+knitr::opts_chunk$set(eval = FALSE)
 library(tidyverse)
 ```
 
@@ -50,7 +51,7 @@ coretta <- read_csv("hw3_caretta.csv")
 Выведите в консоль название рассказа с максимальным апостериороным средним?
 
 ```{r}
-chekhov <- read_csv("chekhov_letters.csv")
+chekhov <- read_csv("hw3-chekhov_letters.csv")
 ```
 
 ### 3.2.2
